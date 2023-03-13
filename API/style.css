@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #222;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #444;
+    color: #eee;
+    padding: 20px;
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .series-image {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .series-list {
+    list-style: none;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+  }
+  
+  .series-item {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: #555;
+    transition: background-color 0.2s;
+  }
+  
+  .series-item:hover {
+    background-color: #666;
+  }
+  
+  .series-item.active {
+    background-color: #888;
+  }
+  
+  .main {
+    background-color: #333;
+    color: #eee;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .seasons-container {
+    max-width: 800px;
+  }
+  
+  .season-container {
+    margin-bottom: 1rem;
+  }
+  
+  .season-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .episode-list {
+    list-style: none;
+    margin-bottom: 1rem;
+    display: none;
+  }
+  
+  .episode-title {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .season-image {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    display: none;
+  }
+    
+    @media only screen and (max-width: 600px) {
+    .container {
+    flex-direction: column;
+    }
+    
+    .sidebar {
+    width: 100%;
+    }
+    }
