@@ -8,8 +8,11 @@ const series = [
   { id: 169, title: "Breaking Bad" },
   { id: 431, title: "Friends" },
   { id: 2993, title: "Stranger Things" },
-  { id: 96, title: "Manhattan Love Story" },
-  { id: 140, title: "Looking" },
+  { id: 1, title: "Under the Dome" },
+  { id: 2, title: "Person of Interest" },
+  { id: 13, title: "The Flash" },
+  { id: 63, title: "The Vampire Diaries" },
+  { id: 62, title: "The Originals"},
   { id: 216, title: "Rick And Morty" }
 ];
 
